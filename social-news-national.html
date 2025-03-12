@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodia News</title>
+    <!-- tailwindcss link cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background: url(assets/images/bg_body.jpg) top center;">
+    <div class="header w-[100%] sticky top-0 z-10 bg-white">
+        <div class="top-header w-[85%] m-auto flex justify-between items-center py-[5px] text-sm sm:text-md md:text-lg font-[battambang]">
+             <div>ថ្ងៃអង្គារ៍ ទី០៦ ខែសីហា ឆ្នាំ២០២៤ </div>
+             <div class="social-media">
+                <ul class="flex items-center space-x-3">
+                    <li><a href="#"><img src="assets/images/facebook_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/youtube_40px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/telegram_app_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                </ul>
+             </div>
+        </div>
+
+        <div class="nav-bar w-[100%] m-auto flex justify-between bg-[#283B93]">
+            <div class="wrapper w-[95%] md:w-[85%] m-auto flex justify-between items-center text-[#fff] space-x-10">
+            <div class="logo flex items-center space-x-10">
+                <a href="index.html"><img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px"></a>
+
+                
+            <ul class="hidden md:flex items-center space-x-8 font-[koulen] text-xl">
+                <li><a href="index.html" class="hover:text-[#EC9C22] transition-all"><i class="fa-solid fa-house"></i> ទំព័រដើម</a></li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សង្គម</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">បច្ចេកវិទ្យា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កម្សាន្ត</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សេដ្ឋកិច្ច</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>​
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កីឡា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+
+            <div class="search-box rounded-md">
+                <div class="container">
+                    <input checked="" class="checkbox" type="checkbox">
+                    <div class="mainbox">
+                        <div class="iconContainer">
+                            <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                                </path>
+                            </svg>
+                        </div>
+                        <input class="search_input" placeholder="search" type="text">
+                    </div>
+                </div>
+            </div>
+            <!-- end of search-box -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <div class="w-[95%] md:w-[85%] m-auto mt-5 flex flex-col xl:flex-row justify-between">
+        <div class="box-left w-[100%] xl:w-[68%] h-fit">
+            <div class="top-content w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
+             <div class="box w-full h-auto border-gray-500 border bg-[#fff] overflow-hidden">
+                <a href="#">
+                    <div class="thumbnail overflow-hidden">
+                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/S.jpg" alt="" class="w-full h-[250px] sm:h-[200px] md:h-[200px] lg:h-[250px] xl:h-[250px]">
+                    </div>
+                    <div class="mt-5 px-[20px] pb-[5px]">
+                        <div class="title font-[battambang] font-bold">កាកបាទក្រហមកម្ពុជា ផ្តល់អំណោយមនុស្សធម៌ដល់ប្រជាពលរដ្ឋងាយរងគ្រោះបំផុតជាង ៧០០គ្រួសារ នៅសង្កាត់គោករកា ខណ្ឌព្រែកព្នៅ</div>
+                        <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">អ្នករស់នៅរាជធានីភ្នំពេញ និងជាពិសេសសិស្សានុសិស្ស មិនសូវមានពេលវេលា និងទីកន្លែង ដើម្បីដាំដុះបន្លែឡើយ។ ម្យ៉ាងទៀត មិនសូវស្គាល់ភាពលំបាកលំបិន ក្នុងការដាំដុះបន្លែ ឬធ្វើស្រែចំការឡើយ។</div>
+                        <div class="post-date font-[Hanuman] mt-3 text-[#777777] text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                    </div>
+                </a>
+             </div>
+
+             <div class="box w-full h-auto border-gray-500 border bg-[#fff] overflow-hidden">
+                <a href="#">
+                    <div class="thumbnail overflow-hidden">
+                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/R1.jpg" alt="" class="w-full h-[250px] sm:h-[200px] md-[200px] lg:h-[250px] xl:h-[250px]">
+                    </div>
+                    <div class="mt-5 px-[20px] pb-[5px]">
+                        <div class="title font-[battambang] font-bold">សិស្សានុសិស្ស នៅវិទ្យាល័យព្រែកលៀប ផ្លាស់ប្តូរឥរិយាបថ មកស្រឡាញ់ការដាំដុះបន្លែធម្មជាតិ គ្មានសារធាតុគីមី</div>
+                        <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">អ្នករស់នៅរាជធានីភ្នំពេញ និងជាពិសេសសិស្សានុសិស្ស មិនសូវមានពេលវេលា និងទីកន្លែង ដើម្បីដាំដុះបន្លែឡើយ។ ម្យ៉ាងទៀត មិនសូវស្គាល់ភាពលំបាកលំបិន ក្នុងការដាំដុះបន្លែ ឬធ្វើស្រែចំការឡើយ។</div>
+                        <div class="post-date font-[Hanuman] mt-3 text-[#777777] text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                    </div>
+                </a>
+             </div>
+
+            </div>
+
+            <div class="content w-full mt-10">
+                <h1 class="font-[koulen] text-2xl text-gray-700">ព័តមានសង្គមជាតិ</h1>
+
+                <div class="box-block bg-[#fff] w-full">
+                    <div class="line h-[4px] w-full bg-[#E12127]"></div>
+                    <div class="box-content shadow-2xl w-full">
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="box h-[140px] sm:h-[150px] md:h-[180px] lg:h-[180px] xl:h-[180px] overflow-hidden border">
+                            <a href="#" class="flex h-full w-full space-x-3 md:space-x-8 overflow-hidden p-3">
+                                <div class="w-[40%] sm:w-[30%] md:w-[30%] lg:w-[30%] xl:w-[30%] 2xl:w-[70%] h-full">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/23-07-2024/images/P3.jpg" alt="" class="w-full h-full">
+                                </div>
+
+                                <div class="mt-0 w-[60%] sm:w-[70%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] h-full">
+                                    <div class="title font-[battambang] font-normal sm:font-semibold text-md sm:text-lg max-h-[72px] sm:max-h-[56px] overflow-hidden text-gray-800">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត </div>
+                                    <div class="des font-[Hanuman] mt-3 text-[#777777] hidden md:block">ក្នុងសិក្ខាសាលា ស្តីពី ស្ថានភាព និងការចូលរួមឆ្លើយតបទៅនឹងមេរោគអេដស៍ និងជំងឺអេដស៍នៅកម្ពុជា នៅព្រឹកថ្ងៃទី៨ ខែសីហា ឆ្នាំ២០២៤ នេះ អង្គការមូលនិធិ...</div>
+                                    <div class="post-date font-[Hanuman] mt-1 text-[#777777] text-[10px] sm:text-[13px] md:text-[13px] py-2"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="w-full shadow-2xl flex justify-center p-5">
+                        <button class="font-[hanuman] w-full border border-blue-800 py-[5px] text-gray-700" id="load-more">មើលច្រើនទៀត</button>
+                    </div>
+                </div>
+            </div>
+
+
+             
+        </div>
+        <!-- end of box-left -->
+
+        <div class="box-right w-[100%] xl:w-[30%] h-fit">
+            <div class="banner w-full h-[850px] grid-rows-3 gap-y-[5px] hidden xl:grid border-b border-gray-400 shadow-2xl">
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="https://ads.sabay.com/images/a0ac9e717f2e98fc143b5b8b22ceffd7.jpg" alt="" class="w-full h-full">
+                    </a>
+                </div>
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/uploads/ads/img_20210405_015403_3209286_MTW_sidebar350x290.jpg" alt="" class="w-full h-full">
+                    </a>
+                </div>
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="https://news.pnn.com.kh/assets/uploads/ads/img_20240520_083253_188798_DailyMoitonLogo350x290.png" alt="" class="w-full h-full">
+                    </a>
+                </div>
+             </div>
+
+             <div class="latest-news w-full h-fit p-3 mt-5 bg-[#fff] shadow-2xl">
+                   <h1 class="font-[battambang] font-bold text-md md:text-xl lg:text-xl xl:text-xl text-gray-700">ព័តមានចុងក្រោយ</h1>
+                   <div class="news-box h-full w-full">
+                    <div class="line h-[3px] w-full bg-[#283B93]"></div>
+                    <div class="mt-5 grid grid-rows-4 gap-y-5 w-full md:h-[700px] lg:h-[700px] xl:h-[500px] 2xl:h-[500px]">
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+                    </div>
+
+                   </div>
+             </div>
+
+             <div class="popular-news w-full h-fit p-3 mt-5 bg-[#fff] shadow-2xl">
+                <h1 class="font-[battambang] font-bold text-md md:text-xl lg:text-xl xl:text-xl text-gray-700">ព័តមានពេញនិយម</h1>
+                <div class="news-box h-full w-full">
+                 <div class="line h-[3px] w-full bg-[#283B93]"></div>
+                 <div class="mt-5 grid grid-rows-4 gap-y-5 w-full md:h-[700px] lg:h-[700px] xl:h-[500px] 2xl:h-[500px]">
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="category-box h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+                 </div>
+
+                </div>
+          </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="footer w-[100%] bg-[#1C1C1C] mt-32 py-16">
+        <div class="wrapper text-white font-[battambang] grid grid-cols-1 xl:grid-cols-3 gap-x-52 w-[85%] md:w-[85%] m-auto">
+            <div class="box1 w-full">
+                <img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px">
+                <div>​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០២៤</div>
+                <div class="mt-3">គោលការណ៍​ភាព​ឯកជន | Privacy Policy</div>
+                <div class="address mt-3">
+                    <div class="font-bold">អាសយដ្ឋាន</div>
+                    <div>អគារ​លេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ </div>
+                </div>
+            </div>
+            <div class="box2 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">អំពីយើង</h1>
+                <div class="mt-3 leading-8"> Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ <a href="#">ព័ត៌មាន​បន្ថែម</a></div>
+            </div>
+            <div class="box3 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">ជួបគ្នានៅបណ្តាញសង្គម</h1>
+                <div class="social-media mt-3 text-3xl">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+     <script src="assets/script/jquery-3.7.1.js"></script>
+     <script src="assets/script/script.js"></script>
+</body>
+</html>

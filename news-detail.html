@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodia News</title>
+    <!-- tailwindcss link cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background: url(assets/images/bg_body.jpg) top center;">
+    <div class="header w-[100%] sticky top-0 z-10 bg-white">
+        <div class="top-header w-[85%] m-auto flex justify-between items-center py-[5px] text-sm sm:text-md md:text-lg font-[battambang]">
+             <div>ថ្ងៃអង្គារ៍ ទី០៦ ខែសីហា ឆ្នាំ២០២៤ </div>
+             <div class="social-media">
+                <ul class="flex items-center space-x-3">
+                    <li><a href="#"><img src="assets/images/facebook_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/youtube_40px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/telegram_app_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                </ul>
+             </div>
+        </div>
+
+        <div class="nav-bar w-[100%] m-auto flex justify-between bg-[#283B93]">
+            <div class="wrapper w-[95%] md:w-[85%] m-auto flex justify-between items-center text-[#fff] space-x-10">
+            <div class="logo flex items-center space-x-10">
+                <a href="index.html"><img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px"></a>
+
+                
+            <ul class="hidden md:flex items-center space-x-8 font-[koulen] text-xl">
+                <li><a href="index.html" class="hover:text-[#EC9C22] transition-all"><i class="fa-solid fa-house"></i> ទំព័រដើម</a></li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សង្គម</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">បច្ចេកវិទ្យា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កម្សាន្ត</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សេដ្ឋកិច្ច</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>​
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កីឡា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+
+            <div class="search-box rounded-md">
+                <div class="container">
+                    <input checked="" class="checkbox" type="checkbox">
+                    <div class="mainbox">
+                        <div class="iconContainer">
+                            <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                                </path>
+                            </svg>
+                        </div>
+                        <input class="search_input" placeholder="search" type="text">
+                    </div>
+                </div>
+            </div>
+            <!-- end of search-box -->
+             
+            </div>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <div class="w-[95%] md:w-[85%] m-auto mt-5 flex flex-col xl:flex-row justify-between">
+        <div class="box-left w-[100%] xl:w-[68%] h-fit">
+
+            <div class="news-detail p-5 shadow-2xl bg-[#fff] w-full">
+                <div class="title font-[battambang] text-lg font-bold leading-10">សម្តេចធិបតី៖ រាជរដ្ឋាភិបាល មិនបំភ្លេចចោលអាកាសយានិក ២រូប ដែលបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រនោះទេ ខណៈប្រតិបត្តិការរុករកកំពុងបន្ត</div>
+                <div class="mt-8 flex justify-between items-center">
+                    <div class="box-left flex items-center space-x-5">
+                        <div class="post-date font-[Hanuman] text-[#777777] text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                        <div class="news-type text-[#E12127] font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                    </div>
+
+                    <div class="box-right"><a href="#"><i class="fa-solid fa-share-nodes"></i></a></div>
+                </div>
+                <div class="des font-[Hanuman] text-gray-800 text-md mt-10 leading-8">
+                    ប្រមុខរាជរដ្ឋាភិបាល បានបញ្ជាក់ថា ចាប់ពីពេលបាត់ដំណឹង មកទល់នឹងពេលនេះ គឺមិនមានមួយវិនាទីណា ដែលអាកាសយានិកទាំងពីររូប ដែលបានបាត់ដំណឹងជាមួយឧទ្ធម្ភាគចក្រ ត្រូវបានបំភ្លេចចោលនោះទ្បើយ។ មកដល់ពេលនេះ កងកម្លាំងរុករក បានបន្តបេសកកម្មទាំងយប់ទាំងថ្ងៃ មិនថា មេឃរាំង ឬភ្លៀង និងមិនថា ក្នុងព្រៃជ្រៅ ឬឆ្លងកាត់ជ្រោះជ្រលងទឹកហូរនោះទេ ក៏ការស្វែងរកអាកាសយានិកទាំងពីររូបនៅតែបន្តជានិច្ច។ 
+                </div>
+                <div class="thumbnail mt-10">
+                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/24-07-2024/images/n.jpg" alt="" class="w-full h-auto">
+                </div>
+
+                <div class="des font-[Hanuman] text-gray-800 text-md mt-10 leading-8">
+                    គិតមកទល់នឹងថ្ងៃទី២៣ ខែកក្កដានេះ គឺអស់រយៈពេល ១២ ថ្ងៃមកហើយ ដែលឧទ្ធម្ភាគចក្រយោធាមួយគ្រឿងប្រភេទ Z-9 រួមជាមួយអាកាសយានិកចំនួន ២ រូប បានបាត់ការទាក់ទងជាមួយទីបញ្ជាការទ័ពអាកាស ខណៈពេលកំពុងហ្វឹកហ្វឺនហោះហើរផ្លូវឆ្ងាយ ក្នុងភូមិសាស្រ្តភ្នំជួរក្រវាញ រវាងព្រំប្រទល់ខេត្តពោធិ៍សាត់ និងខេត្តកោះកុង ។
+                </div>
+                <div class="thumbnail mt-10">
+                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/24-07-2024/images/n1.jpg" alt="" class="w-full h-auto">
+                </div>
+
+                <div class="des font-[Hanuman] text-gray-800 text-md mt-10 leading-8">
+                    សម្តេចធិបតី ហ៊ុន ម៉ាណែត នាយករដ្ឋមន្ត្រីនៃកម្ពុជា បានបញ្ជាក់ថា ចាប់ពីពេលបាត់ដំណឹង មកទល់នឹងពេលនេះ គឺមិនមានមួយវិនាទីណាដែលអាកាសយានិកទាំងពីររូប ត្រូវបានបំភ្លេចចោលនោះទ្បើយ ខណៈដែលការស្វែងរកបានចាប់ផ្តើមភ្លាមៗ បន្ទាប់ពីបាត់ការទាក់ទង ដោយមានការចូលរួមពីសំណាក់កងយោធពលខេមរភូមិន្ទ និងអាជ្ញាធរដែនដីនៅហ្នឹងកន្លែង ។ ហើយមកដល់ពេលនេះ កងកម្លាំងរុករក បានបន្តបេសកកម្មទាំងយប់ទាំងថ្ងៃ មិនថាមេឃរាំង ឬភ្លៀង និងមិនថាក្នុងព្រៃជ្រៅ ឬឆ្លងកាត់ជ្រោះជ្រលងទឹកហូរនោះទេ ក៏ការស្វែងរកអាកាសយានិកទាំងពីររូបនៅតែបន្តជានិច្ច ។ 
+                </div>
+                <div class="thumbnail mt-10">
+                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/24-07-2024/images/n2.jpg" alt="" class="w-full h-auto">
+                </div>
+            </div> 
+            <!-- end of news-detail -->
+
+            <div class="relate-news p-5 shadow-2xl bg-[#fff] mt-10 w-full">
+                <h1 class="font-[battambang] font-bold text-md md:text-xl lg:text-xl xl:text-xl text-gray-700">ព័តមានទាក់ទង</h1>
+                <div class="line h-[5px] w-full bg-[#283B93] mt-[5px]"></div>
+                <div class="news-box mt-5 w-full grid grid-cols-2 sm:grid-cols-3 gap-5">
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/10-08-2024/images/ab.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/24-07-2024/images/Y2.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/10-08-2024/images/ab.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/10-08-2024/images/ab.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/10-08-2024/images/ab.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+
+                     <div class="box w-full">
+                        <a href="#">
+                            <div class="thumbnail overflow-hidden relative">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/10-08-2024/images/ab.jpg" alt="" class="w-full h-[150px] sm:h-[180px] md:h-[180px] lg:h-[180px] xl:h-[170px]">
+                                <div class="news-type-category h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 px-[5px]">ព័តមានសង្គមជាតិ</div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">ភ្លៀងធ្លាក់ខ្លាំងបង្កការជន់លិចធ្ងន់ធ្ងរនៅតំបន់ភាគខាងជើងប្រទេសចិន</div>
+                                <div class="post-date font-[Hanuman] mt-[10px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                        </a>
+                     </div>
+                </div>
+            </div> 
+            <!-- end of relate-news -->
+
+        </div>
+        <!-- end of box-left -->
+
+        <div class="box-right w-[100%] xl:w-[30%] h-fit">
+            <div class="banner w-full h-[850px] grid-rows-3 gap-y-[5px] hidden xl:grid border-b border-gray-400 shadow-2xl">
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="https://ads.sabay.com/images/a0ac9e717f2e98fc143b5b8b22ceffd7.jpg" alt="" class="w-full h-full">
+                    </a>
+                </div>
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/uploads/ads/img_20210405_015403_3209286_MTW_sidebar350x290.jpg" alt="" class="w-full h-full">
+                    </a>
+                </div>
+                <div class="box w-full h-full border">
+                    <a href="#">
+                        <img src="https://news.pnn.com.kh/assets/uploads/ads/img_20240520_083253_188798_DailyMoitonLogo350x290.png" alt="" class="w-full h-full">
+                    </a>
+                </div>
+             </div>
+
+             <div class="latest-news w-full h-fit p-3 mt-5 bg-[#fff] shadow-2xl">
+                   <h1 class="font-[battambang] font-bold text-md md:text-xl lg:text-xl xl:text-xl text-gray-700">ព័តមានចុងក្រោយ</h1>
+                   <div class="news-box h-full w-full">
+                    <div class="line h-[3px] w-full bg-[#283B93]"></div>
+                    <div class="mt-5 grid grid-rows-4 gap-y-5 w-full md:h-[700px] lg:h-[700px] xl:h-[500px] 2xl:h-[500px]">
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+
+                         <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                            <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                                <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                                <div class="absolute bottom-0 w-full">
+                                    <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                                </div>
+
+                            </a>
+                            <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                                <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                    <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                                </div>
+                                <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                            </div>
+                         </div>
+
+                    </div>
+
+                   </div>
+             </div>
+
+             <div class="popular-news w-full h-fit p-3 mt-5 bg-[#fff] shadow-2xl">
+                <h1 class="font-[battambang] font-bold text-md md:text-xl lg:text-xl xl:text-xl text-gray-700">ព័តមានពេញនិយម</h1>
+                <div class="news-box h-full w-full">
+                 <div class="line h-[3px] w-full bg-[#283B93]"></div>
+                 <div class="mt-5 grid grid-rows-4 gap-y-5 w-full md:h-[700px] lg:h-[700px] xl:h-[500px] 2xl:h-[500px]">
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+
+                      <div class="box h-full w-full flex space-x-5 overflow-hidden">
+                         <a href="#" class="relative w-[40%] sm:w-[40%] md:w-[40%] lg:w-[30%] xl:w-[50%] overflow-hidden">
+                             <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/09-08-2024/images/PR3.jpg" alt="" class="h-full w-full">
+                             <div class="absolute bottom-0 w-full">
+                                 <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                             </div>
+
+                         </a>
+                         <div class="w-[60%] sm:w-[60%] md:w-[60%] lg:w-[70%] xl:w-[50%]">
+                             <div class="title font-[battambang] text-gray-800 max-h-[70px] overflow-hidden">
+                                 <a href="#">មកដឹងប្រាក់ចំណូល និងចំណេញរបស់ផលិតកម្មខេប៉ុបធំៗក្នុងត្រីមាសកន្លងទៅ</a>
+                             </div>
+                             <div class="post-date font-[Hanuman] mt-[5px] text-[#777777] text-[10px] sm:text-[13px] md:text-[13px]"><i class="fa-regular fa-clock"></i> ០៩ សីហា ២០២៤</div>
+                         </div>
+                      </div>
+
+                 </div>
+
+                </div>
+          </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="footer w-[100%] bg-[#1C1C1C] mt-32 py-16">
+        <div class="wrapper text-white font-[battambang] grid grid-cols-1 xl:grid-cols-3 gap-x-52 w-[85%] md:w-[85%] m-auto">
+            <div class="box1 w-full">
+                <img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px">
+                <div>​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០២៤</div>
+                <div class="mt-3">គោលការណ៍​ភាព​ឯកជន | Privacy Policy</div>
+                <div class="address mt-3">
+                    <div class="font-bold">អាសយដ្ឋាន</div>
+                    <div>អគារ​លេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ </div>
+                </div>
+            </div>
+            <div class="box2 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">អំពីយើង</h1>
+                <div class="mt-3 leading-8"> Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ <a href="#">ព័ត៌មាន​បន្ថែម</a></div>
+            </div>
+            <div class="box3 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">ជួបគ្នានៅបណ្តាញសង្គម</h1>
+                <div class="social-media mt-3 text-3xl">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+     <script src="assets/script/jquery-3.7.1.js"></script>
+     <script src="assets/script/script.js"></script>
+</body>
+</html>

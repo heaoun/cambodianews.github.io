@@ -1,0 +1,11 @@
+-navbar:
+bg:#283B93;
+hover:#EC9C22;
+btn-search-bg:#ccc;
+
+-news-box
+technology-bg-color:#E12127;
+social-bg-color:#283B93 !important;
+intertainment-bg-color: #4FB84A !important;
+economic-bg-color: #E15B21 !important;
+sport-bg-color: #EC9C22 !important;

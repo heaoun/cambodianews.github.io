@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambodia News</title>
+    <!-- tailwindcss link cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awesome link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background: url(assets/images/bg_body.jpg) top center;">
+    <div class="header w-[100%] sticky top-0 z-10 bg-white">
+        <div class="top-header w-[85%] m-auto flex justify-between items-center py-[5px] text-sm sm:text-md md:text-lg font-[battambang]">
+             <div>ថ្ងៃអង្គារ៍ ទី០៦ ខែសីហា ឆ្នាំ២០២៤ </div>
+             <div class="social-media">
+                <ul class="flex items-center space-x-3">
+                    <li><a href="#"><img src="assets/images/facebook_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/youtube_40px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                    <li><a href="#"><img src="assets/images/telegram_app_48px.png" alt="" class="w-[30px] h-[30px] md:w-auto md:h-auto"></a></li>
+                </ul>
+             </div>
+        </div>
+
+        <div class="nav-bar w-[100%] m-auto flex justify-between bg-[#283B93]">
+            <div class="wrapper w-[95%] md:w-[85%] m-auto flex justify-between items-center text-[#fff] space-x-10">
+            <div class="logo flex items-center space-x-10">
+                <a href="index.html"><img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px"></a>
+
+                
+            <ul class="hidden md:flex items-center space-x-8 font-[koulen] text-xl">
+                <li><a href="index.html" class="hover:text-[#EC9C22] transition-all"><i class="fa-solid fa-house"></i> ទំព័រដើម</a></li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សង្គម</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="social-news-national.html">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">បច្ចេកវិទ្យា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កម្សាន្ត</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">សេដ្ឋកិច្ច</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>​
+                <li><a href="#" class="hover:text-[#EC9C22] transition-all">កីឡា</a>
+                    <ul class="absolute bg-[#ccc] mt-[4px] text-black p-5 space-y-3 hidden">
+                        <li><a href="#">ព័តមានជាតិ</a></li>
+                        <li><a href="#">ព័តមានអន្តរជាតិ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+
+            <div class="search-box rounded-md">
+                <div class="container">
+                    <input checked="" class="checkbox" type="checkbox">
+                    <div class="mainbox">
+                        <div class="iconContainer">
+                            <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon">
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+                                </path>
+                            </svg>
+                        </div>
+                        <input class="search_input" placeholder="search" type="text">
+                    </div>
+                </div>
+            </div>
+            <!-- end of search-box -->
+
+            </div>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <div class="main-news w-[95%] md:w-[85%] h-auto m-auto hidden md:flex justify-between mt-5 z-10">
+
+         <div class="main-left w-[100%] xl:w-[68%] h-[850px] sm:h-[950px] md:h-[850px] lg:h-[950px] xl:h-[850px] 2xl:h-[850px] overflow-hidden flex flex-col justify-between">
+
+            <div class="big-box w-60% h-[60%] sm:h-[70%] md:h-[50%] lg:h-[60%] xl:h-[60%] 2xl:h-[60%] overflow-hidden relative">
+                <div class="Menucategory-N-slide-respon mt-0 md:mt-auto h-full">
+                    <div class="slide-respon h-full">
+                        <div class="itemSlide-respon h-full">
+                            <div class="wrapperSlide-respon h-full">
+                                <div class="imageslide-respon relative h-full">
+                                    <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/02-08-2024/images/A.jpg" alt="" class="w-full h-full">
+            
+                                    <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                                        <div class="news-type h-[45px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[15px] px-5">ព័តមានសង្គម</div>
+                                        <div class="title mt-3 font-[battambang] font-bold text-white text-[20px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                                    </div>
+                                </div>
+                                <div class="imageslide-respon relative h-full">
+                                    <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+            
+                                    <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                                        <div class="news-type h-[45px] max-w-fit bg-[#EC9C22] flex justify-center items-center text-white font-[Hanuman] text-[15px] px-5">ព័តមានកីឡា</div>
+                                        <div class="title mt-3 font-[battambang] font-bold text-white text-[20px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                                    </div>
+                                </div>
+                                <div class="imageslide-respon relative h-full">
+                                    <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2024/August(4)/week-(55)/66b1d067759e7_1722929220_medium.jpg" alt="" class="w-full h-full">
+            
+                                    <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                                        <div class="news-type h-[45px] max-w-fit bg-[#283B93] flex justify-center items-center text-white font-[Hanuman] text-[15px] px-5">ព័តមានបច្ចេកវិទ្យា</div>
+                                        <div class="title mt-3 font-[battambang] font-bold text-white text-[20px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                                    </div>
+                                </div>
+                                <div class="tbnSlideBack-respon"><i class="fa-solid fa-chevron-left"></i></div>
+                                <div class="tbnSlideNext-respon"><i class="fa-solid fa-chevron-right"></i></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of responsive slide -->
+            
+            </div>
+
+            <div class="small-box h-[40%] sm:h-[30%] md:h-[50%] lg:h-[40%] xl:h-[40%] grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-5 overflow-hidden">
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/aaa.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-[80px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+            </div>
+         </div>
+
+         <div class="banner main-right w-[31%] h-[850px] grid-rows-3 gap-y-[5px] hidden xl:grid">
+            <div class="box w-full h-full border">
+                <a href="#">
+                    <img src="https://ads.sabay.com/images/a0ac9e717f2e98fc143b5b8b22ceffd7.jpg" alt="" class="w-full h-full">
+                </a>
+            </div>
+            <div class="box w-full h-full border">
+                <a href="#">
+                    <img src="http://news.pnn.com.kh/assets/uploads/ads/img_20210405_015403_3209286_MTW_sidebar350x290.jpg" alt="" class="w-full h-full">
+                </a>
+            </div>
+            <div class="box w-full h-full border">
+                <a href="#">
+                    <img src="https://news.pnn.com.kh/assets/uploads/ads/img_20240520_083253_188798_DailyMoitonLogo350x290.png" alt="" class="w-full h-full">
+                </a>
+            </div>
+         </div>
+
+    </div>
+    <!-- end of main-news -->
+
+    <div class="Menucategory-N-slide mt-0 md:mt-auto flex md:hidden">
+        <div class="slide h-[280px] sm:h-[350px] md:h-[350px]">
+            <div class="itemSlide">
+                <div class="wrapperSlide">
+                    <div class="imageslide relative">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/02-08-2024/images/A.jpg" alt="">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានសង្គម</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                    </div>
+                    <div class="imageslide relative">
+                        <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#EC9C22] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកីឡា</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                    </div>
+                    <div class="imageslide relative">
+                        <img src="https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2024/August(4)/week-(55)/66b1d067759e7_1722929220_medium.jpg" alt="">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#283B93] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានបច្ចេកវិទ្យា</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                    </div>
+                    <div class="tbnSlideBack"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="tbnSlideNext"><i class="fa-solid fa-chevron-right"></i></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of slide -->
+
+    <div class="news-block w-[95%] md:w-[85%] m-auto mt-10 grid grid-cols-1 xl:grid-cols-2 gap-x-5">
+        <div class="box1 w-[100%]">
+            <h1 class="font-[battambang] font-bold text-xl md:text-xl lg:text-2xl xl:text-2xl text-gray-700">ព័តមានសង្គម</h1>
+            <div class="news-content h-full w-full mt-3">
+                 <div class="line h-[4px] w-full bg-[#E12127]"></div>
+                 <div class="grid grid-rows-4 w-full h-[600px] sm:h-[800px] md:h-[950px] lg:h-[950px] xl:h-[800px] 2xl:h-[850px] bg-[#fff] shadow-2xl">
+
+                    <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="box2 w-[100%] mt-20 xl:mt-0">
+            <h1 class="font-[battambang] font-bold text-xl md:text-xl lg:text-2xl xl:text-2xl text-gray-700">ព័តមានបច្ចេកវិទ្យា</h1>
+            <div class="news-content h-full mt-3">
+                 <div class="line h-[4px] w-full bg-[#283B93]"></div>
+                 <div class="grid grid-rows-4 h-[600px] sm:h-[800px] md:h-[950px] lg:h-[950px] xl:h-[800px] 2xl:h-[850px] bg-[#fff] shadow-2xl">
+
+                    <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                     <div class="box h-full w-full relative border overflow-hidden flex space-x-3 p-5">
+                        <a href="#" class="relative overflow-hidden w-[43%]">
+                            <img src="https://news.pnn.com.kh/assets/uploads/articles/02-08-2024/photo_20240802_024340_2980699_T5.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E12127] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសង្គម</div>
+                        </a>
+                        <div class="title font-[battambang] mt-0 w-[50%]">
+                            <div class="max-h-[72px] overflow-hidden">
+                            <a href="#" class="leading-0 md:leading-9">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ</a>
+                            </div>
+                            <div class="date-post text-[10px] mt-3"><i class="fa-regular fa-clock"></i> ០២ សីហា ២០២៤</div>
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- end of news-block -->
+    
+    <div class="economic-news w-[95%] md:w-[85%] m-auto mt-20">
+        <h1 class="font-[koulen] text-xl md:text-xl lg:text-2xl xl:text-3xl text-gray-700">ព័តមានសេដ្ឋកិច្ច</h1>
+
+        <div class="content shadow-2xl mt-3 w-full bg-[#fff]">
+            <div class="line h-[5px] w-full bg-[#E15B21]"></div>
+            <div class="top-news h-auto 2xl:h-[350px] w-full grid grid-cols-1 lg:grid-cols-2 gap-5 p-5">
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/photo_2024-08-07_16-13-18%20(3).jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/06-08-2024/images/photo_2024-08-06_17-10-02.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">មន្ត្រីថា ទឹកជំនន់ មិនប៉ះពាល់ដល់ការសិក្សា ប៉ុន្តែកំពុងតាមដានស្ថានភាពជាប្រចាំ </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom-news h-auto w-full grid grid-cols-2 xl:grid-cols-4 gap-x-5 px-5 lg:space-y-0">
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end of economic-news -->
+
+    <div class="intertainment-news w-[95%] md:w-[85%] m-auto mt-20">
+        <h1 class="font-[koulen] text-xl md:text-xl lg:text-2xl xl:text-3xl text-gray-700">ព័តមានកម្សាន្ត</h1>
+
+        <div class="content shadow-2xl mt-3 w-full bg-[#fff]">
+            <div class="line h-[5px] w-full bg-[#4FB84A]"></div>
+            <div class="top-news h-auto 2xl:h-[350px] w-full grid grid-cols-1 lg:grid-cols-2 gap-5 p-5">
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/PEN4.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">សិល្បករ ប៉ែន រ៉ូប៊ីត បញ្ជ្រាបពីក្រមាខ្មែរតាមរយៈស្នាដៃពិព័រណ៌គំនូរសហសម័យ «ក្រឡា»</div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/photo_2024-08-07_15-34-35.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#4FB84A] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកម្សាន្ត</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">ប្រកាសប្រឡូកសិល្បៈស៊ុបឡើងវិញ ឌុច លីដា ថាមិនប្រកាន់តួអង្គទេ បើត្រូវថ្លៃ ត្រូវសាច់រឿង នឹងទទួថតភាពយន្ត </div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom-news h-auto w-full grid grid-cols-2 xl:grid-cols-4 gap-x-5 px-5 lg:space-y-0">
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end of intertainment-news -->
+
+    <div class="sport-news w-[95%] md:w-[85%] m-auto mt-20">
+        <h1 class="font-[koulen] text-xl md:text-xl lg:text-2xl xl:text-3xl text-gray-700">ព័តមានកីឡា</h1>
+
+        <div class="content shadow-2xl mt-3 w-full bg-[#fff]">
+            <div class="line h-[5px] w-full bg-[#EC9C22]"></div>
+            <div class="top-news h-auto 2xl:h-[350px] w-full grid grid-cols-1 lg:grid-cols-2 gap-5 p-5">
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/31-07-2024/images/photo_2024-07-31_10-56-16%20(2).jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#EC9C22] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកីឡា</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">Bayern Munich បានបង្ហាញកីឡាករចំណូលថ្មីរបស់ពួកគេ Joao Palhinha នៅកីឡដ្ឋាន Allianz Arena</div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+
+                <div class="box w-full h-[250px] sm:h-[330px] md:h-[400px] lg:h-[350px] xl:h-[350px] 2xl:h-full relative overflow-hidden">
+                    <a href="#">
+                        <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/29-07-2024/images/photo_2024-07-29_11-12-31.jpg" alt="" class="w-full h-full">
+
+                        <div class="absolute bottom-0 p-3 w-full" style="background: linear-gradient(0deg, #000000, rgba(255, 255, 255, 0)); opacity:1;">
+                            <div class="news-type h-[30px] max-w-fit bg-[#EC9C22] flex justify-center items-center text-white font-[Hanuman] text-[13px] px-[5px]">ព័តមានកីឡា</div>
+                            <div class="title mt-3 font-[battambang] font-bold text-white text-[15px]" style="text-shadow:-1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;">' Endrick បង្ហាញអារម្មណ៍រំភើបពេលសចូលរួមជាមួយ Real Madrid</div>
+                        </div>
+                        <div class="overlay w-full h-full absolute z-1 top-0 left-0"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bottom-news h-auto w-full grid grid-cols-2 xl:grid-cols-4 gap-x-5 px-5 lg:space-y-0">
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box w-full">
+                    <a href="#">
+                        <div class="thumbnail relative w-full h-[130px] sm:h-[150px] md:h-[250px] lg:h-[300px] xl:h-[180px] overflow-hidden">
+                            <img src="http://news.pnn.com.kh/assets/editor/uploads_editor/07-08-2024/images/TH.jpg" alt="" class="w-full h-full">
+                            <div class="news-type h-[30px] bg-[#E15B21] flex justify-center items-center text-white font-[Hanuman] text-[13px] absolute bottom-0 p-[5px]">ព័តមានសេដ្ឋកិច្ច</div>
+                        </div>
+                        <div class="mt-5 font-[battambang] pb-5">
+                            <div class="title leading-8 max-h-[68px] overflow-hidden text-gray-900">ប្រកាសគម្រោងចេញអាល់ប៊ុមនិង World Tour នៅចុងឆ IMF រក្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ ្សាការព្យាករកំណើនសេដ្ឋកិច្ចចិន ៥% ក្នុងឆ្នាំ ២០២៤ auto please anoto logo dara</div>
+                            <div class="date-post text-[10px] mt-3 text-gray-500"><i class="fa-regular fa-clock"></i> ០៦ សីហា ២០២៤</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end of sport-news -->
+
+    <div class="footer w-[100%] bg-[#1C1C1C] mt-32 py-16">
+        <div class="wrapper text-white font-[battambang] grid grid-cols-1 xl:grid-cols-3 gap-x-52 w-[85%] md:w-[85%] m-auto">
+            <div class="box1 w-full">
+                <img src="https://webstockreview.net/images/news-clipart-news-logo-15.png" alt="" width="120px">
+                <div>​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ Sabay ឆ្នាំ​២០២៤</div>
+                <div class="mt-3">គោលការណ៍​ភាព​ឯកជន | Privacy Policy</div>
+                <div class="address mt-3">
+                    <div class="font-bold">អាសយដ្ឋាន</div>
+                    <div>អគារ​លេខ ៣០៨ មហាវិថីព្រះមុន្នីវង្ស សង្កាត់បឹងរាំង ខណ្ឌដូនពេញ </div>
+                </div>
+            </div>
+            <div class="box2 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">អំពីយើង</h1>
+                <div class="mt-3 leading-8"> Sabay Digital Corporation ជា​ក្រុមហ៊ុន​ព័ត៌មាន​ឌីជីថល និង​កម្សាន្ត​ឈាន​មុខ​គេ​នៅ​កម្ពុជា។ <a href="#">ព័ត៌មាន​បន្ថែម</a></div>
+            </div>
+            <div class="box3 w-full mt-5">
+                <h1 class="font-[koulen] text-xl">ជួបគ្នានៅបណ្តាញសង្គម</h1>
+                <div class="social-media mt-3 text-3xl">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- script -->
+     <script src="assets/script/jquery-3.7.1.js"></script>
+     <script src="assets/script/script.js"></script>
+</body>
+</html>
